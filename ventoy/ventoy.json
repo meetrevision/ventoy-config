@@ -2,7 +2,8 @@
   "auto_install": [
     {
       "image": "/WinISO/*.iso",
-      "template": ["/ReviSetup/autounattend.xml"]
+      "template": ["/ventoy/revi/autounattend.xml"],
+      "autosel": 1
     }
   ]
 }

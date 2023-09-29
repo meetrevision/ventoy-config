@@ -1,0 +1,8 @@
+{
+  "auto_install": [
+    {
+      "image": "/WinISO/*.iso",
+      "template": ["/ReviSetup/autounattend.xml"]
+    }
+  ]
+}

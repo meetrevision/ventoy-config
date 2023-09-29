@@ -1,7 +1,7 @@
 {
   "auto_install": [
     {
-      "image": "/WinISO/*.iso",
+      "parent": "/WinISO",
       "template": ["/ventoy/revi/autounattend.xml"],
       "autosel": 1
     }

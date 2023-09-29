@@ -22,4 +22,4 @@ This is a test repository for automating some parts of the Windows installation 
 3. Install Ventoy
 4. Copy the contents of this repository to the root of the Ventoy drive
 5. Move your Windows ISO file(s) to the `WinISO` folder
-6. Boot into Ventoy, go to the `WinISO` folder and select your ISO file
+6. Boot into Ventoy and select your ISO file

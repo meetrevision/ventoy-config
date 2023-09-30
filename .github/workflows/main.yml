@@ -1,0 +1,27 @@
+name: Archive and Release
+
+on:
+  release:
+    types:
+      - created
+  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      
+      - name: Archive content
+        run: |
+            zip -r revi-ventoy-config.zip ReviSetup WinISO ventoy
+        working-directory: ${{ github.workspace }}
+        
+      - name: Upload ZIP file
+        uses: actions/upload-artifact@v3
+        with:
+          path: revi-ventoy-config.zip
+          overwrite: true

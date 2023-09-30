@@ -23,5 +23,5 @@ jobs:
       - name: Upload ZIP file
         uses: actions/upload-artifact@v3
         with:
-          name: revi-ventoy-config.zip
-          path: revi-ventoy-config.zip
+          name: revi-ventoy-config
+          path: ./revi-ventoy-config.zip

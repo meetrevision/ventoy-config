@@ -24,4 +24,3 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: revi-ventoy-config.zip
-          overwrite: true

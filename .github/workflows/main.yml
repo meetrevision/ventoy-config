@@ -21,7 +21,7 @@ jobs:
         working-directory: ${{ github.workspace }}
         
       - name: Upload ZIP file
-        uses: actions/upload-artifact@v2
+        uses: svenstaro/upload-release-action@v2
         with:
           file: revi-ventoy-config.zip
           asset_name: revi-ventoy-config.zip

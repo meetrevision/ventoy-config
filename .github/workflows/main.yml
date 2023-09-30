@@ -21,7 +21,9 @@ jobs:
         working-directory: ${{ github.workspace }}
         
       - name: Upload ZIP file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
-          name: revi-ventoy-config
-          path: ./revi-ventoy-config.zip
+          file: revi-ventoy-config.zip
+          asset_name: revi-ventoy-config.zip
+          tag: ${{ github.ref }}
+          overwrite: true

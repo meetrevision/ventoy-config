@@ -13,7 +13,7 @@ This is a test repository for automating some parts of the Windows installation 
   - Disables AllowTelemetry
 - Disables CEIP and Error Reporting
 - Prevents automatic Teams installation
-- Disables dynamic updates and diagnostic data during Windows PE
+<!-- - Disables dynamic updates and diagnostic data during Windows PE -->
 
 ## Usage
 

@@ -5,16 +5,19 @@ This is a test repository for automating some parts of the Windows installation 
 ## Features
 
 - OOBE configuration
-  - Disables online account creation
-  - Hides the Network screen
-  - Disables the Privacy screen
-- A custom Script
-  - Disables automatic drivers updating
+  - Disable online account creation
+  - Hide the Network screen
+  - Disable the Privacy screen
+- Custom Script
+  - Disable automatic drivers updating
   - Pause Windows Updates
-  - Disables AllowTelemetry
-- Disables CEIP and Error Reporting
-<!-- - Prevents automatic Teams installation~~ -->
-- Disables dynamic updates and diagnostic data during Windows PE
+  - AllowTelemetry to 0
+  - Prevent automatic Teams installation
+  - Disable WPBT
+  - Prevent Automatic Device Encryption
+  - Disable Smart App Control
+- Disable CEIP and Error Reporting
+- Disable dynamic updates and diagnostic data during Windows PE
 
 ## Usage
 

@@ -10,10 +10,11 @@ This is a test repository for automating some parts of the Windows installation 
   - Disables the Privacy screen
 - A custom Script
   - Disables automatic drivers updating
+  - Pause Windows Updates
   - Disables AllowTelemetry
 - Disables CEIP and Error Reporting
-- Prevents automatic Teams installation
-<!-- - Disables dynamic updates and diagnostic data during Windows PE -->
+<!-- - Prevents automatic Teams installation~~ -->
+- Disables dynamic updates and diagnostic data during Windows PE
 
 ## Usage
 
